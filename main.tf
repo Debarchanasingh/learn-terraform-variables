@@ -1,16 +1,8 @@
-terraform {
-  required_providers {
-    aws = {
-      source = "hashicorp/aws"
-    }
-    #version = "~>=1.0.4"
-  }
-}
+
 provider "aws" {
   region = "us-west-1"
 }
-
-
+#Adding comment to start a run
 data "aws_availability_zones" "available" {
   state = "available"
 }
