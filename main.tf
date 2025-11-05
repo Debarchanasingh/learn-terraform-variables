@@ -1,18 +1,5 @@
-# terraform {
-#   required_providers {
-#     aws = {
-#       source = "hashicorp/aws"
-#     }
-#   }
-# }
 terraform {
-  # cloud {
-  #   organization = "policy-as-code-training"
-  #   workspaces {
-  #     name = "tf-vault-qa-kds"
-  #   }
-  }
-  required_providers {
+   required_providers {
     aws = {
       source  = "hashicorp/aws"
     }
