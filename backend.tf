@@ -1,11 +1,11 @@
 terraform {
   
-  cloud {
-    organization = "policy-as-code-training"
-    workspaces {
-      name = "tf-vault-qa-kds"
-    }
-  }
+#   cloud {
+#     organization = "policy-as-code-training"
+#     workspaces {
+#       name = "tf-vault-qa-kds"
+#     }
+#   }
   
   required_providers {
     aws = {
