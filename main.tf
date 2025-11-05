@@ -1,10 +1,7 @@
-terraform {
-    required_providers{}
-}
-
 provider "aws" {
   region = "us-west-1"
 }
+
 
 data "aws_availability_zones" "available" {
   state = "available"
