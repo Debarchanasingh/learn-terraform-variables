@@ -2,7 +2,7 @@
 provider "aws" {
   region = "us-west-1"
 }
-#Adding comment to start a run
+#Adding comment to start a run try one
 data "aws_availability_zones" "available" {
   state = "available"
 }
